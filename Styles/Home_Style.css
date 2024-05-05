@@ -1,0 +1,223 @@
+﻿#srch {
+   border-radius: 20px;
+    width: 1200px;
+    height: 30px;
+    border: 1px solid #808080;
+    background-color: ghostwhite;
+}
+
+#btnn1 {
+    width: 150px;
+    height: 40px;
+    background: #05161c;
+    border: 2px solid #05161c;
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#btnn1:hover{
+    background-color: #05161cbd;
+}
+
+
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 1;
+    
+}
+
+/* Position the "next button" to the right */
+.next {
+    right:0;
+    border-radius: 3px 0 0 3px;
+    
+    
+}
+.prev {
+    left: 0;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        
+    }
+
+/* Caption text */
+.text {
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    padding: 4px 12px;
+    /*/margin-bottom: 330px;*/
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 60px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 11px
+    }
+}
+
+.book-container {
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    background-color: #f3f3f386;
+    padding-top:30px;
+    padding-bottom: 42px;
+    position: relative;
+}
+.link-container {
+    position: absolute; 
+    bottom: 0px; 
+    text-align: center; 
+    width: 100%;
+    margin:8px 0px;
+}
+.book {
+    margin: 5px; /* Adjust spacing between books */
+}
+
+.book img {
+    width: 200px; /* Adjust image width as needed */
+    height: 300px; /* Adjust image height as needed */
+}
+
+.link2 {
+    text-align: center;
+}
+
+
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+    .zoom:hover {
+        transform: scale(1.12); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+.link2 {
+    font-family: Calibri;
+    text-align: center;
+}
+
+.text3 {
+    color: black;
+    font-size: 40px;
+    padding: 4px 12px;
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    margin-left: 30px;
+    animation-timing-function: ease;
+    animation: mymove 2s alternate-reverse;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 200px;
+    }
+}
+
+.maintxt {
+    font-family: Calibri;
+    color: #05161c;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 247, 247);
+}
+
+#user{
+    color:#104457;
+    font-size:1.05rem;
+    font-weight:bold;
+}

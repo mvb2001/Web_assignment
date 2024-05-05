@@ -1,0 +1,92 @@
+﻿.tbl2 {
+    background-color: rgba(250,250, 250, 0.5);
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+.text {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Lucida Sans';
+    padding: 4px 12px;
+    font-weight: bold;
+    margin-bottom: -30px;
+    bottom: 8px;   
+}
+
+.topic{
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    text-align: center;
+}
+
+#srch1 {
+    border-radius: 20px;
+    width: 800px;
+    height: 30px;
+    border: 1px solid ghostwhite;
+    background-color: ghostwhite;
+    margin-left: 115px;
+    margin-top: 25px;
+}
+
+#btnn1 {
+    width: 100px;
+    height: 30px;
+    background: #05161c;
+    border: 2px solid #05161c;
+    /*margin-top: 13px;*/
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius:20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#btnn1:hover{
+    background-color: #05161ca4;
+}
+
+#btnn2 {
+    width: 300px;
+    height: 75px;
+    background: #05161cd8;
+    border: 1px solid #353131;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    text-align: left;
+    transition: transform .2s; /* Animation */
+}
+
+    #btnn2:hover {
+        transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+.vl {
+    border-left: 3px solid #fff;
+    height: 670px;
+    position: center;
+    margin-left: 35px;
+}
+
+.book {
+    width: 150px;
+    height: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform .2s; /* Animation */
+}
+
+.book:hover {
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

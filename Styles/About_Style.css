@@ -1,0 +1,75 @@
+﻿.tbl2 {
+    background-color: rgba(250,250, 250, 0.5);
+    width: 100%;
+
+    height: 820px;
+}
+
+.topic {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    text-align: center;
+    /*margin-top: -240px;*/
+}
+
+#btnn2 {
+    width: 300px;
+    height: 75px;
+    background:#074961;
+    border: 1px solid #000000;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    text-align: center;
+    transition: transform .2s; /* Animation */
+    
+}
+
+    #btnn2:hover {
+        transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        
+    }
+
+.vl {
+    border-left: 3px solid #fff;
+    height: 750px;
+    position: center;
+    margin-left: 35px;
+}
+
+.para1{
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.main1 {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    color: #0026ff;
+    font-size: 40px;
+}
+
+.para2 {
+    font-family: Calibri;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.main2{
+    font-weight: bold;
+}
+
+.tdspace{
+    line-height: 30px;
+    display:block;
+    
+}
+
+

@@ -1,0 +1,95 @@
+﻿.Payments {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+}
+
+form {
+    width: 970px;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(250,250, 250, 0.5);
+    font-size: 17px;
+    font-family: Calibri;
+    text-align: left;
+}
+
+#cardNo {
+    margin-left: 55px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 250px;
+    height: 20px;
+    border: 1px solid ghostwhite;
+    background-color: ghostwhite;
+}
+
+#ownerName {
+    margin-left: 45px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 250px;
+    height: 20px;
+    border: 1px solid ghostwhite;
+    background-color: ghostwhite;
+}
+
+#date {
+    margin-left: 109px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 55px;
+    height: 20px;
+    border: 1px solid ghostwhite;
+    background-color: ghostwhite;
+}
+
+#sCode {
+    margin-left: 52.5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 55px;
+    height: 20px;
+    border: 1px solid ghostwhite;
+    background-color: ghostwhite;
+}
+
+::placeholder {
+    font-family: Calibri;
+}
+
+.note {
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+#btnn4 {
+    width: 150px;
+    height: 40px;
+    background: #05161c;
+    border: 2px solid #05161c;
+    margin-left: 220px;
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#btnn4:hover{
+    background-color: #05161cb4;
+}

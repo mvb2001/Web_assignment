@@ -1,0 +1,109 @@
+﻿.tbl2 {
+    background-color: rgba(250,250, 250, 0.5);
+    width: auto;
+    margin: auto;
+    height: 750px;
+}
+
+.topic {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    text-align: center;
+    /*margin-top: -100px;*/
+}
+
+.topic2 {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+}
+
+#btnn2 {
+    width: 300px;
+    height: 75px;
+    background:#074961;
+    border: 1px solid #000000;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+    text-align: center;
+    transition: transform .2s; 
+}
+
+    #btnn2:hover {
+        transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+#question {
+    width: 700px;
+    height: 100px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid ghostwhite;
+    background-color: ghostwhite;
+}
+.vl {
+    border-left: 3px solid #fff;
+    height: 680px;
+    position: center;
+    margin-left: 35px;
+}
+
+form {
+    font-size: 17px;
+    font-family: Calibri;
+}
+
+#btnn5 {
+    width: 150px;
+    height: 40px;
+    background: #05161c;
+    border: 2px solid #05161c;
+    margin-left: 220px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+#btnn5:hover{
+    background-color: #05161cd2;
+}
+
+#uname, #uemail {
+    margin-left: 248px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 300px;
+    height: 20px;
+    border: 1px solid ghostwhite;
+    background-color: ghostwhite;
+}
+
+::placeholder {
+    font-family: Calibri;
+}
+
+.num{
+    font-family: Calibri;
+    color: white;
+    font-size: 50px;
+    margin-left: 15px;
+}
+.tdspace{
+    line-height: 50px;
+    display:block;
+    
+}
+

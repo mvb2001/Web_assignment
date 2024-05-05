@@ -1,0 +1,96 @@
+﻿form {
+    width: 970px;
+    height: 530px;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(212, 211, 211, 0.411);
+    font-size: 17px;
+    font-family: Calibri;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px rgba(25, 23, 44, 0.6);
+}
+
+#fname, #lname, #nic, #age, #tel, #email, #pwd1, #cfrmpwd1 {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 230px;
+    height: 20px;
+    border: 1px solid ghostwhite;
+    background-color: ghostwhite;
+}
+
+#TandC{
+    font-size: 15px;
+}
+
+.note1 {
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+.note2{
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    margin-left:30px;
+}
+
+.subNote2{
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.vl {
+    border-left: 3px solid #fff;
+    height: 500px;
+    position: center;
+    margin-left: 35px;
+}
+
+.img04 {
+    margin-left: 60px;
+}
+
+#file1 {
+    margin-left: 120px;
+}
+
+.link1{
+    margin-left: 355px;
+    font-family: Calibri;
+}
+
+.Signup {
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+}
+
+::placeholder {
+    font-family: Calibri;
+}
+
+#btnn1{
+    width: 150px;
+    height: 40px;
+    background: #05161c;
+    border: 2px solid #05161c;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: bold;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+#btnn1:hover{
+    background-color: #05161cc0;
+}
+
