@@ -31,9 +31,8 @@
         <li><a href="About.php" >About us</a></li>
     </ul>
     <div class="main">
+        <a href="Login.php"><button id="bttn2" >LogOut</button></a>
         
-        
-        <a href="Logout.php"><button id="bttn2" >Log Out</button></a>
     </div>
     </div>  
     <center>

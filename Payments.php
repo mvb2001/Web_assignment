@@ -36,14 +36,13 @@ if(isset($_SESSION['SID']) && isset($_SESSION['First_Name'])){
     <ul class="navbar">
         <li><a href="Index.php">Home</a></li>
         <li><a href="Search.php">Search</a></li>
-        <li><a href="Payments.php">Payments</a></li>
+        <li><a href="#">Payments</a></li>
         <li><a href="FAQ_Feedback.php">FAQ & Feedback</a></li>
         <li><a href="Contact.php">Contact Us</a></li>
         <li><a href="About.php" >About us</a></li>
     </ul>
     <div class="main">
-    
-    <a href="Logout.php"><button id="bttn2" >Log Out</button></a>
+    <a href="Login.php"><button id="bttn2" >LogOut</button></a>
     </div>
     </div>  
     <br/><br/>

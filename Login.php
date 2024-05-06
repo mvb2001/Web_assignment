@@ -56,9 +56,6 @@
                     <center>
                         <font class="Login">LOG IN</font><br>
                         <h3 class="txt1">Enter your Login credentials</h3>
-                        <?php if(isset($_GET['error'])) {?>
-                            <p class="error" style="color: red;"><?php echo $_GET['error']; ?></p>
-                        <?php }?>
                         <input type="text" placeholder="   Enter your First Name as your username" name="uname" id="uname"><br /><br />
                         <input type="password" placeholder="   Password" name="pwd" id="pwd" ><br /><br />
                         <label>

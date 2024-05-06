@@ -2,7 +2,7 @@
     background-color: rgba(250,250, 250, 0.5);
     width: 100%;
 
-    height: 820px;
+    height: 800px;
 }
 
 .topic {
@@ -27,7 +27,6 @@
     cursor: pointer;
     text-align: center;
     transition: transform .2s; /* Animation */
-    
 }
 
     #btnn2:hover {

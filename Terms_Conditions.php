@@ -42,7 +42,6 @@ if(isset($_SESSION['SID']) && isset($_SESSION['First_Name'])){
         <li><a href="About.php" >About us</a></li>
     </ul>
     <div class="main">
-    
     <a href="Logout.php"><button id="bttn2" >LogOut</button></a>
     </div>
     </div>  

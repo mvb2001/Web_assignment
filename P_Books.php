@@ -41,8 +41,7 @@ if(isset($_SESSION['SID']) && isset($_SESSION['First_Name'])){
         <li><a href="About.php" >About us</a></li>
     </ul>
     <div class="main">
-    
-    <a href="Logout.php"><button id="bttn2" >Log Out</button></a>
+    <a href="Logout.php"><button id="bttn2" >LogOut</button></a>
     </div>
     </div>  
         <br /><br />
@@ -67,10 +66,10 @@ if(isset($_SESSION['SID']) && isset($_SESSION['First_Name'])){
                 <tr>
                     <td>
                         <a href="Search.php"><button id="btnn2">NOVELS</button></a><br />
-                        <a href="Frictions.php"><button id="btnn2">FICTIONS</button></a><br />
-                        <a href="H_Frictions.php"><button id="btnn2">HISTORICAL FICTIONS</button></a><br />
-                        <a href="S_Frictions.php"><button id="btnn2">SCIENCE FICTIONS</button></a><br />
-                        <a href="L_Frictions.php"><button id="btnn2">LITERARY FICTIONS</button></a><br />
+                        <a href="Frictions.php"><button id="btnn2">FRICTIONS</button></a><br />
+                        <a href="H_Frictions.php"><button id="btnn2">HISTORICAL FRICTIONS</button></a><br />
+                        <a href="S_Frictions.php"><button id="btnn2">SCIENCE FRICTIONS</button></a><br />
+                        <a href="L_Frictions.php"><button id="btnn2">LITERARY FRICTIONS</button></a><br />
                         <a href="S_Stories.php"><button id="btnn2">SHORT STORIES</button></a><br />
                         <a href="#"><button id="btnn2">FANTACY STORIES</button></a><br />
                         <a href="T_Books.php"><button id="btnn2">TEXT BOOKS</button></a><br />

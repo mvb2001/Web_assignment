@@ -33,7 +33,7 @@ if(isset($_SESSION['SID']) && isset($_SESSION['First_Name'])){
     </header>
     <div class="navbar">
     <ul class="navbar">
-        <li><a href="Index.php">Home</a></li>
+    <li><a href="Index.php">Home</a></li>
         <li><a href="Search.php">Search</a></li>
         <li><a href="Payments.php">Payments</a></li>
         <li><a href="FAQ_Feedback.php">FAQ & Feedback</a></li>
@@ -41,8 +41,7 @@ if(isset($_SESSION['SID']) && isset($_SESSION['First_Name'])){
         <li><a href="About.php" >About us</a></li>
     </ul>
     <div class="main">
-   
-    <a href="Logout.php"><button id="bttn2" >Log Out</button></a>
+        <a href="Login.php"><button id="bttn2" >LogOut</button></a>
         
     </div>
     </div>  
@@ -67,15 +66,15 @@ if(isset($_SESSION['SID']) && isset($_SESSION['First_Name'])){
                 </tr>
                 <tr>
                     <td>
-                    <a href="Search.php"><button id="btnn2">NOVELS</button></a><br />
-                        <a href="Frictions.php"><button id="btnn2">FICTIONS</button></a><br />
-                        <a href="H_Frictions.php"><button id="btnn2">HISTORICAL FICTIONS</button></a><br />
-                        <a href="S_Frictions.php"><button id="btnn2">SCIENCE FICTIONS</button></a><br />
-                        <a href="L_Frictions.php"><button id="btnn2">LITERARY FICTIONS</button></a><br />
-                        <a href="S_Stories.php"><button id="btnn2">SHORT STORIES</button></a><br />
-                        <a href="F_Stories.php"><button id="btnn2">FANTACY STORIES</button></a><br />
-                        <a href="T_Books.php"><button id="btnn2">TEXT BOOKS</button></a><br />
-                        <a href="P_Books.php"><button id="btnn2">PICTURE BOOKS</button></a><br />
+                        <a href="#"><button class="btnn2" type="button" id="btnn2">NOVELS</button></a><br />
+                        <a href="Frictions.php"><button class="btnn2" type="button" id="btnn2" >FRICTIONS</button><br />
+                        <a href="H_Frictions.php"><button class="btnn2" type="button" id="btnn2" >HISTORICAL FRICTIONS</button><br />
+                        <a href="S_Frictions.php"><button class="btnn2" type="button" id="btnn2" >SCIENCE FRICTIONS</button><br />
+                        <a href="L_Frictions.php"><button class="btnn2" type="button" id="btnn2" >LITERARY FRICTIONS</button><br />
+                        <a href="S_Stories.php"><button class="btnn2" type="button" id="btnn2" >SHORT STORIES</button><br />
+                        <a href="F_Stories.php"><button class="btnn2" type="button" id="btnn2" >FANTACY STORIES</button><br />
+                        <a href="T_Books.php"><button class="btnn2" type="button" id="btnn2" >TEXT BOOKS</button><br />
+                        <a href="P_Books.php"><button class="btnn2" type="button" id="btnn2" >PICTURE BOOKS</button><br />
                     </td>
                     <td>
                         <div class="vl"></div>

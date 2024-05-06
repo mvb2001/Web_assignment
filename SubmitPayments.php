@@ -58,7 +58,7 @@ if(isset($_SESSION['SID']) && isset($_SESSION['First_Name'])){
     </header>
     <div class="navbar">
     <ul class="navbar">
-    <li><a href="Home.php">Home</a></li>
+    <li><a href="Index.php">Home</a></li>
         <li><a href="Search.php">Search</a></li>
         <li><a href="Payments.php">Payments</a></li>
         <li><a href="FAQ_Feedback.php">FAQ & Feedback</a></li>
